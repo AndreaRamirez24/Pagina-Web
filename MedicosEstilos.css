@@ -1,0 +1,42 @@
+@font-face{
+    font-family: "Funnel Display";
+    src: url(assets/fontFunnel_Display/FunnelDisplay-Bold.ttf),
+    url(assets/fontFunnel_Display/FunnelDisplay-ExtraBold.ttf),
+    url(assets/fontFunnel_Display/FunnelDisplay-Light.ttf),
+    url(assets/fontFunnel_Display/FunnelDisplay-Medium.ttf),
+    url(assets/Funnel_Display/FunnelDisplay-Regular.ttf),
+    url(assets/fontFunnel_Display/FunnelDisplay-SemiBold.ttf);
+}
+
+a{
+    text-decoration: none;
+    color: #373737 !important;
+}
+nav{
+    background-color: #14aae1;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 7px 5px 1px rgba(45, 32, 32, 0.2);
+    font-family: "Funnel Display";
+    font-style: normal;
+    font-size: small;
+}
+li:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+ul.nav li a:hover{
+    cursor: pointer;
+    color: #9fe2a4 !important;
+}
+#logo{
+    padding-left: 25px;
+    width: 100px;
+    height: auto;
+}
+#barranav{
+    position: fixed;
+    margin-left: 35px;
+    right: inherit;
+    z-index: 100;
+}
