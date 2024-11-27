@@ -6,6 +6,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="stylesheet">
     </head>
+    <title>Hospital KAPA</title>
     <body>
         <div class="encabezado">
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -99,40 +100,40 @@
                       <div class="col-8 col-md-8 offset-3 offsetmd-3" id="bloque3">
                         <h1>Especialidades</h1>
                       </div>
-                      <div class="medicinaInterna" style="width: 30%;" id="bloque4">
+                      <div class="medicinaInterna" style="width: 30%;" id="bloque6">
                         <img src="assets/medicinaInterna.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Medicina interna</h5>
+                          <h5 class="card-title">Medicina Interna</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Conocer más</a>
+                          <a href="Medicina_Inetrna.html" class="btn btn-primary">Conocer más</a>
                         </div>
                       </div>
-                      <div class="cardiología" style="width: 30%;" id="bloque5">
+                      <div class="cardiología" style="width: 30%;" id="bloque3">
                         <img src="assets/cardiologia.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Cardiología</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Conocer más</a>
+                          <a href="Cardiologia.html" class="btn btn-primary">Conocer más</a>
                         </div>
                       </div>
-                      <div class="ginecologia" style="width: 30%;" id="bloque6">
+                      <div class="ginecologia" style="width: 30%;" id="bloque5">
                         <img src="assets/ginecologia.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Ginecología</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Conocer más</a>
+                          <a href="Ginecología.html" class="btn btn-primary">Conocer más</a>
                         </div>
                       </div>  
                     </div>
                   </div>
                   <div class="geriatria" style="margin-top: 150px;">
                     <div class="row">
-                      <div class="geriatria" style="width: 30%;" id="bloque7">
+                      <div class="geriatria" style="width: 30%;" id="bloque4">
                         <img src="assets/geriatria.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Geriatría</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Conocer más</a>
+                          <a href="Geriatría.html" class="btn btn-primary">Conocer más</a>
                         </div>
                       </div>
                       <div class="pediatria" style="width: 30%;" id="bloque8">
@@ -140,15 +141,15 @@
                         <div class="card-body">
                           <h5 class="card-title">Pediatría</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Conocer más</a>
+                          <a href="Pediatría.html" class="btn btn-primary">Conocer más</a>
                         </div>
                       </div>
-                      <div class="neurologia" style="width: 30%;" id="bloque9">
+                      <div class="neurologia" style="width: 30%;" id="bloque7">
                         <img src="assets/neurologia.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Neurología</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Conocer más</a>
+                          <a href="Neurología.html" class="btn btn-primary">Conocer más</a>
                         </div>
                       </div>  
                     </div>
@@ -339,6 +340,14 @@
         <script>
             const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
             const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+        </script>
+        <script>
+          const myModal = document.getElementById('myModal')
+          const myInput = document.getElementById('myInput')
+
+          myModal.addEventListener('shown.bs.modal', () => {
+          myInput.focus()
+          })
         </script>
     </body>
 </html>
