@@ -42,7 +42,7 @@
             <a class="nav-link" aria-current="page" href="Clinica.html #bloque10">Contacto</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Inicio de seción</a>
+            <a class="nav-link" aria-current="page" href="#">Inicio de sesión</a>
           </li>
         </ul> 
       </div>  
@@ -64,7 +64,7 @@
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="..." class="d-block w-100" alt="...">
+                    <img src="assets/promocionGereatria.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
                     <img src="..." class="d-block w-100" alt="...">
@@ -86,15 +86,64 @@
         <div class="imagenes">
             <div class="row">
                 <div class="col-8 col-md-8 offset-2 offsetmd-2">
-                  <img src="assets/Instalaciones_Geriatria.jpg" width="200px" height="200px">
-                  <img src="assets/Instalaciones_Geriatria2.avif" width="200px" height="200px">
-                  <img src="assets/Instalaciones_Geriatria3.jpg" width="200px" height="200px">
+                    <img src="assets/Instalaciones_Geriatria.jpg" width="200px" height="200px">
+                    <img src="assets/Instalaciones_Geriatria2.avif" width="200px" height="200px">
+                    <img src="assets/Instalaciones_Geriatria3.jpg" width="200px" height="200px">
                 </div>
             </div>
         </div>
-        <div class="calendario/botones">
+        <div class="agenda/botones">
             <div class="row">
+              <div class="col-8 col-md-8 offset-3 offsetmd-3">
+                <h2>Agenda</h2>
+                <thead>
+                  <tr>
+                    <th scope="col">Mes</th>
+                    <th scope="col">Semana</th>
+                    <th scope="col">Dia</th>
+                  </tr>
+                </thead>
+              </div>
                 <div class="col-8">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Hora</th>
+                        <th scope="col">Lunes</th>
+                        <th scope="col">Martes</th>
+                        <th scope="col">Miercoles</th>
+                        <th scope="col">Jueves</th>
+                        <th scope="col">Viernes</th>
+                        <th scope="col">Sabado</th>
+                        <th scope="col">Domingo</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">8:00-9:00</th>
+                        <td colspan="1">Disponible</td>
+                        <td></td>
+                        <td></td>
+                        <td colspan="2">Disponible</td>
+                        <td colspan="8">Disponible</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">9:00-10:00</th>
+                        <td></td>
+                        <td></td>
+                        <td colspan="3">Disponible</td>
+                        <td></td>
+                        <td colspan="8">Disponible</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">10:00-11:00</th>
+                        <td></td>
+                        <td colspan="2">Disponible</td>
+                        <td></td>
+                        <td colspan="8">Disponible</td>
+                      </tr>
+                    </tbody>
+                </table>
                 </div>
                 <div class="col-4">
                   <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModal">Agendar Cita</button>
@@ -114,6 +163,12 @@
                                     <div class="apellidos">
                                       <label for="exampleFormControlInput1" class="form-label">Apellidos</label>
                                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Apellidos">
+                                    </div>
+                                    <div class="Hora">
+                                      <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Horario</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="00:00">
+                                      </div>
                                     </div>
                                     <div class="fecha">
                                       <label for="exampleFormControlInput1" class="form-label">Fecha</label>
@@ -179,8 +234,8 @@
                                     </div>
                                     <div class="email">
                                       <div class="mb-3">
-                                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                        <label for="exampleFormControlInput1" class="form-label">Correo Electronico</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email">
                                       </div>
                                     </div>
                                     <div class="modal-body">
@@ -196,17 +251,17 @@
             </div>
         </div>
         <div class="contacto">
-          <div class="col-8 col-md-8 offset-3 offsetmd-3">
-              <h1>Contacto</h1>
-          </div>
-          <div class="row">
-              <p>Correo: contacto@hospitalkapa.com</p>
-              <p>Numero: 5558709238</p>
-              <p>Direccion: Calle de la Salud #123, Colonia Las Rosas, Ciudad Esperanza, CP 45678, Estado de México.</p>
-              <p>Redes Sociales: Facebook: HospitalKAPAOficial Instagram: @KAPA_Salud Twitter: @HospitalKAPA TikTok: @KAPA_CuidaDeTi</p>
-              <p>2024 Hospital KAPA. Aviso Legal Privacidad Cookies</p>
-          </div>
-      </div>
+            <div class="col-8 col-md-8 offset-3 offsetmd-3">
+                <h1>Contacto</h1>
+            </div>
+            <div class="row">
+                <p>Correo: contacto@hospitalkapa.com</p>
+                <p>Numero: 5558709238</p>
+                <p>Direccion: Calle de la Salud #123, Colonia Las Rosas, Ciudad Esperanza, CP 45678, Estado de México.</p>
+                <p>Redes Sociales: Facebook: HospitalKAPAOficial Instagram: @KAPA_Salud Twitter: @HospitalKAPA TikTok: @KAPA_CuidaDeTi</p>
+                <p>2024 Hospital KAPA. Aviso Legal Privacidad Cookies</p>
+            </div>
+        </div>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     </body>
