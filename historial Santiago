@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <title>Historial</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="assets/Logo.jpg" alt="Logo" width="100" height="auto" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Agenda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Historial clinico del paciente</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Inicio de seción</a>
+              </li>
+            </ul> 
+          </div>  
+        </nav>
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <div class="card-body" style="margin-top: 20px;">
+                <h5 class="card-title">Santiago Meléndez Santillan</h5>
+                <ul class="card-text">
+                  <li>Edad: 70 años</li>
+                  <li>Diagnostico: Arritmia </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-4">
+              <h3>
+                Diagnóstico
+              </h3>
+              <p>Motivo de consulta: Palpitaciones, sensación de aleteo en el pecho, especialmente durante el ejercicio.
+
+                Antecedentes: Hipertensión arterial controlada con medicación.
+                
+                Examen físico: Presión arterial 140/90 mmHg, frecuencia cardíaca irregular.
+                
+                Electrocardiograma: Presenta ritmo sinusal con extrasístoles ventriculares frecuentes.
+                
+                Diagnóstico: Taquicardia ventricular paroxística.</p>
+            </div>
+
+            <div class="col-4">
+              <h3>
+                Consultas
+              </h3>
+              <p>
+                <a class="btn btn-outline-info" data-bs-toggle="collapse" href="#primera" role="button" aria-expanded="false" aria-controls="primera">
+                  23-octubre-2024 </a>
+              </p>
+              <div class="collapse" id="primera">
+                <div class="card card-body">
+                  <ul>
+                    <li>Tramadol 10mg cada 24 horas por 25 días</li>
+                    <li>Acidoacetilsalicilico 100ml 1 tableta al día por 2 meses</li>
+                    <li>Dieta baja en garsas y azuacar</li>
+                    <li>No consumo de cafeína</li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <p>
+                  <a class="btn btn-outline-info" data-bs-toggle="collapse" href="#segunda" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    01-noviembre-2024
+                  </a>
+                </p>
+                <div class="collapse" id="segunda">
+                  <div class="card card-body">
+                    <ul>
+                      <li>Loratadina 100mg cada 24 horas por 1 semana</li>
+                      <li>Yodoclorohidroxiquinoleína cada 12 horas por 5 días</li>
+                      <li>Paracetamol 500gr 1 tableta cada 8 horas por 3 días</li>
+                      <li>Hacer ejercicio moderados</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <p>
+                  <a class="btn btn-outline-info" data-bs-toggle="collapse" href="#tercera" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    20-noviembre-2024
+                  </a>
+                </p>
+                <div class="collapse" id="tercera">
+                  <div class="card card-body">
+                    <ul>
+                      <li>Amlodipino todos losdías antes de el desayuno</li>
+                      <li>Vitamina D todos los días en lo hora de la comida</li>
+                      <li>Topron 400mg cada 8 horas por 7 días</li>
+                      <li>Tomar 2 litros de agua diariamente</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>    
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" 
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>   
+        <script>
+            const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+            const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+        </script>
+    </body>
+</html>
