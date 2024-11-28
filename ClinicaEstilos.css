@@ -82,5 +82,21 @@ h3{
     animation-fill-mode: forwards;
 }
 #Titulo{
+    padding-top: 25px;
     font-family: "Ramaraja";
+}
+#Titulo2{
+    font-family: "Ramaraja";
+    margin-left: 90px;
+}
+#colaboradores{
+    margin-left: 70px;
+}
+#bloque10{
+    background-color: #9fe2a4;
+    margin-top: 90px;
+}
+#datoscont{
+    margin-left: 60px;
+    font-size: smaller;
 }
