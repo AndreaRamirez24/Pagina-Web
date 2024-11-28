@@ -7,7 +7,24 @@
     url(assets/Funnel_Display/FunnelDisplay-Regular.ttf),
     url(assets/fontFunnel_Display/FunnelDisplay-SemiBold.ttf);
 }
+@font-face {
+    font-family: "Ramaraja";
+    src: url(assets/fontRamaraja/Ramaraja-Regular.ttf);
+}
+@keyframes mover-titulo {
+    from{
+        transform: translateX(-100px);
+    }
+    to{
+        transform: translateX(0px)
+    }
+}
 
+hr{
+    width: 195px;
+    height: 10px;
+    background-color: #14aae1;
+}
 a{
     text-decoration: none;
     color: #373737 !important;
@@ -15,11 +32,20 @@ a{
 nav{
     background-color: #14aae1;
     margin-left: auto;
-    border-radius: 20px;
+    border-radius: 13px;
     box-shadow: 1px 7px 5px 1px rgba(45, 32, 32, 0.2);
     font-family: "Funnel Display";
     font-style: normal;
     font-size: small;
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+body{
+    margin-left: 70px;
+    margin-right: 70px;
+    box-shadow: 1px 7px 10px 8px rgba(45, 32, 32, 0.2);
 }
 li:hover{
     cursor: pointer;
@@ -36,7 +62,40 @@ ul.nav li a:hover{
 }
 #barranav{
     position: fixed;
-    margin-left: 35px;
+    margin-left: -12px;
     right: inherit;
     z-index: 100;
+}
+#bloque2{
+    padding-top: 90px;
+}
+#Titulo{
+    padding-top: 25px;
+    font-family: "Ramaraja";
+}
+#TituloNos{
+    font-family: "Ramaraja";
+    background-color: #9fe2a4;
+    border-radius: 7px;
+    padding-left: 10px;
+}
+#valores{
+    padding-top: 30px;
+}
+h3{
+    animation: mover-titulo 2s 1;
+    animation-fill-mode: forwards;
+}
+#datoscont{
+    margin-left: 60px;
+    font-size: smaller;
+}
+#esphr{
+    width: 310px;
+}
+#bloque6{
+    margin-left: 65px;
+}
+#bloque4{
+    margin-left: 65px;
 }

@@ -20,6 +20,11 @@
     }
 }
 
+hr{
+    width: 195px;
+    height: 10px;
+    background-color: #14aae1;
+}
 body{
     margin-left: 70px;
     margin-right: 70px;
@@ -90,7 +95,7 @@ h3{
     margin-left: 90px;
 }
 #colaboradores{
-    margin-left: 70px;
+    margin-left: 120px;
 }
 #bloque10{
     background-color: #9fe2a4;
@@ -99,4 +104,20 @@ h3{
 #datoscont{
     margin-left: 60px;
     font-size: smaller;
+}
+#esphr{
+    width: 310px;
+}
+#bloque6{
+    margin-left: 65px;
+}
+#bloque4{
+    margin-left: 65px;
+}
+#equiphr{
+    width: 500px;
+}
+#Titulo3{
+    font-family: "Ramaraja";
+    margin-left: 50px;
 }
