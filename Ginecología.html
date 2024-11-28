@@ -93,9 +93,58 @@
                 </div>
             </div>
         </div>
-        <div class="calendario/botones">
+        <div class="agenda/botones">
             <div class="row">
+              <div class="col-8 col-md-8 offset-3 offsetmd-3">
+                <h2>Agenda</h2>
+                <thead>
+                  <tr>
+                    <th scope="col">Mes</th>
+                    <th scope="col">Semana</th>
+                    <th scope="col">Dia</th>
+                  </tr>
+                </thead>
+            </div>
                 <div class="col-8">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Hora</th>
+                        <th scope="col">Lunes</th>
+                        <th scope="col">Martes</th>
+                        <th scope="col">Miercoles</th>
+                        <th scope="col">Jueves</th>
+                        <th scope="col">Viernes</th>
+                        <th scope="col">Sabado</th>
+                        <th scope="col">Domingo</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">8:00-9:00</th>
+                        <td colspan="1">Disponible</td>
+                        <td></td>
+                        <td></td>
+                        <td colspan="2">Disponible</td>
+                        <td colspan="8">Disponible</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">9:00-10:00</th>
+                        <td></td>
+                        <td></td>
+                        <td colspan="3">Disponible</td>
+                        <td></td>
+                        <td colspan="8">Disponible</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">10:00-11:00</th>
+                        <td></td>
+                        <td colspan="2">Disponible</td>
+                        <td></td>
+                        <td colspan="8">Disponible</td>
+                      </tr>
+                    </tbody>
+                </table>
                 </div>
                 <div class="col-4">
                   <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModal">Agendar Cita</button>
@@ -115,6 +164,12 @@
                                     <div class="apellidos">
                                       <label for="exampleFormControlInput1" class="form-label">Apellidos</label>
                                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Apellidos">
+                                    </div>
+                                    <div class="Hora">
+                                      <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Horario</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="00:00">
+                                      </div>
                                     </div>
                                     <div class="fecha">
                                       <label for="exampleFormControlInput1" class="form-label">Fecha</label>
@@ -180,8 +235,8 @@
                                     </div>
                                     <div class="email">
                                       <div class="mb-3">
-                                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                        <label for="exampleFormControlInput1" class="form-label">Correo Electronico</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email">
                                       </div>
                                     </div>
                                     <div class="modal-body">
